@@ -33,7 +33,7 @@ def sendBooking(event, user_id):  #房間預約
                     title='房間預約',
                     text='您目前沒有訂房記錄，可以開始預訂房間。',
                     actions=[
-                        URITemplateAction(label='房間預約', uri='line://app/1654001451-zqZ8ewpJ')  #開啟LIFF讓使用者輸入訂房資料
+                        URITemplateAction(label='房間預約', uri='line://app/1654001451-oeEX4aYN')  #開啟LIFF讓使用者輸入訂房資料
                     ]
                 )
             )
