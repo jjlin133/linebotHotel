@@ -35,7 +35,7 @@ def sendBooking(event, user_id):  #房間預約
                     actions=[
                         URITemplateAction(label='房間預約', uri='line://app/1654001451-Ggd1RVZa')  #開啟LIFF讓使用者輸入訂房資料
                         ##2020.0516開啟LIFF(與LINE Bot(hotelbotliff) 的連結 )讓使用者輸入訂房資料
-                        ## Heroku app URL  >>> https://hotelbotliff.herokuapp.com/index_form.html
+                        ## Heroku app URL  >>> https://hotelbotliff.herokuapp.com/index
                     ]
                 )
             )
