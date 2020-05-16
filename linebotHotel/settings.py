@@ -22,8 +22,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 # LINE Bot name : hotelbot  2020.0509
 SECRET_KEY = 'Uaa63a3f5feff2725536db7d81f09c929'
-LINE_CHANNEL_ACCESS_TOKEN = 'msHko6io7RIFz/tw0Nf6eYDYY+jkf/gpVNhrQtTXoSwT+9nL+JeNQARiIfdIDiioGMy43vmJI76yAo/m9sNKwLwgO1LGKhwjcpRy58TwRS7rfVZhViJNNRg9k+zg1krh+ZMT/+kmtneAkDq++a2hnQdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'cfd90a21d4f7be47f92f0cd4faf11ef7'
+LINE_CHANNEL_ACCESS_TOKEN = 'fLeWspBBCkbYYjkS1rs1SOhoj679k7zNC6Qb53ZkJjoNPD7fxzhGT0rP5IbQvt1NGMy43vmJI76yAo/m9sNKwLwgO1LGKhwjcpRy58TwRS5VAEiG2k2xbRy5L1M/ZKZ1vtjuS47NangtORxQEcQ//gdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = 'd95ae2f853f363b8eeaac56cd5eb5060'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
