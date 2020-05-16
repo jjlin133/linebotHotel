@@ -41,7 +41,7 @@
             initializeApp(data);
         });
         $('#btn_reserve').click(function (e) {  //按下確定鈕
-            pushMsg($('#sel_type').val(), $('#txb_amount').val(), $('#in_datetime').val(), $('#out_datetime').val());
+            reserve($('#sel_type').val(), $('#txb_amount').val(), $('#in_datetime').val(), $('#out_datetime').val());
         });
     });
 </script>
