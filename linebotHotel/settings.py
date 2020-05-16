@@ -20,9 +20,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# LINE Bot name : hotelbot  2020.0509
+# LINE Bot name : hotelbot  2020.0517
 SECRET_KEY = 'Uaa63a3f5feff2725536db7d81f09c929'
-LINE_CHANNEL_ACCESS_TOKEN = 'fLeWspBBCkbYYjkS1rs1SOhoj679k7zNC6Qb53ZkJjoNPD7fxzhGT0rP5IbQvt1NGMy43vmJI76yAo/m9sNKwLwgO1LGKhwjcpRy58TwRS5VAEiG2k2xbRy5L1M/ZKZ1vtjuS47NangtORxQEcQ//gdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_ACCESS_TOKEN = 'ucauYyamc3zKDTJWKF0JzgaXclJWILUeE7itlPU8I8O5lPDqwfHBl9Z+U5dROPfJGMy43vmJI76yAo/m9sNKwLwgO1LGKhwjcpRy58TwRS64g7pFHtDAuj4FTbgspauL6DWmzR0AHOvd0QyZqv1qKgdB04t89/1O/w1cDnyilFU='
 LINE_CHANNEL_SECRET = 'd95ae2f853f363b8eeaac56cd5eb5060'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
