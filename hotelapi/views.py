@@ -8,12 +8,15 @@ from linebot.exceptions import InvalidSignatureError, LineBotApiError
 from linebot.models import MessageEvent, PostbackEvent
 from module import func
 from urllib.parse import parse_qsl
-from hotelapi.models import users,booking
+from hotelapi.models import users
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 
 @csrf_exempt
+def index(request):  #daphne add 20200516
+     return render(request,"hotel_form.html",locals())	
+
 def callback(request):
     if request.method == 'POST':
         signature = request.META['HTTP_X_LINE_SIGNATURE']
@@ -66,6 +69,6 @@ def callback(request):
     else:
         return HttpResponseBadRequest()
     
-def hotelform(request):
-  return render(request,"index_form.html",locals())
+#def hotelform(request):
+#  return render(request,"index_form.html",locals())
 
