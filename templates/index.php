@@ -1,2 +1,2 @@
-<!-- ¥H HTML ÀÉ¬°­º­¶ -->
+<!-- ä»¥ HTML æª”ç‚ºé¦–é ->
 <?php header( 'Location: /hotel_form.html' ) ;  ?>
