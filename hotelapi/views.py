@@ -15,7 +15,7 @@ parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 
 @csrf_exempt
 def index(request):  #daphne add 20200516
-     return render(request,"hotel_form.html",locals())	
+    return render(request,"index_form.html",locals())	
 
 def callback(request):
     if request.method == 'POST':
