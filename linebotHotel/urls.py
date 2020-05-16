@@ -21,8 +21,8 @@ from hotelapi import views
 from formapi import  views as v2 #daphne add 20200516
 
 urlpatterns = [
+    url('^callback', views.callback),
     path('admin/', admin.site.urls),
-    url(r'^callback', views.callback), #daphne revised 202050516
-    url(r'^callback',    v2.callback),  #daphne revised  202050516
-    url('',views.index),#daphne revised  202050516
+    url(r'^index/$', views.index),
 ]
+
