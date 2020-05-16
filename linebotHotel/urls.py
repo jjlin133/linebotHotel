@@ -17,9 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
 from hotelapi import views
+#from django.urls import include #daphne add 20200516
+from formapi import  views as v2 #daphne add 20200516
 
 urlpatterns = [
-    url('^callback', views.callback),
     path('admin/', admin.site.urls),
-    url(r'^hotelform/$', views.hotelform),
+    url(r'^callback', views.callback), #daphne revised 202050516
+    url(r'^callback',    v2.callback),  #daphne revised  202050516
+    url('',views.index),#daphne revised  202050516
 ]
